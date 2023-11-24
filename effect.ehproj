@@ -1,6 +1,6 @@
 {
   "name": "Art Maker",
-  "lastModified": "Fri, 24 Nov 2023 06:42:05 GMT",
+  "lastModified": "Fri, 24 Nov 2023 07:38:36 GMT",
   "version": "3.5.0",
   "internalVersion": "2.5.0",
   "toolName": "Effect House",
@@ -77,9 +77,9 @@
     "62": "Layer 62",
     "63": "Layer 63"
   },
-  "durationToCreate": 32736066987,
-  "durationCreation": 72284228,
-  "durationBackground": 44530167,
+  "durationToCreate": 32739557505,
+  "durationCreation": 72558733,
+  "durationBackground": 44530934,
   "autoResetEffect": false,
   "effectHint": "",
   "templateID": "7234729851968765954",
@@ -89,5 +89,9 @@
   "overwriteBuiltinMakeup": 1,
   "overwriteBuiltinFaceShape": 0,
   "retouchBuiltInSetting": false,
+  "activityId": "new-creator-bonus-1",
+  "activityName": "New Creator Bonus",
+  "activityEnterFrom": "homepage",
+  "activityType": "NCB",
   "perfTested": false
 }

@@ -54,7 +54,7 @@ entities:
           errorTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000134--00000000-0000-0000-0000-000000000134.png}
           finalOutRT: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
           grabMat: {localId: 1, path: 00000000-0000-0000-0000-000000000515--00000000-0000-0000-0000-000000000515.material}
-          graphName: AlSubGraph_Fri24Nov2023062137GMT416drc6
+          graphName: AlSubGraph_Fri24Nov2023073701GMT662un3k
           prompt: jewelry of the Ayutthaya Kingdom Full jewelry Change to Traditional Thai Costume Take off a shirt temples It is and backdrop of a country or a temple or a city or a pier in the ancient Thai style.
           region: auto
           resultMat: {localId: 1, path: 00000000-0000-0000-0000-000000000517--00000000-0000-0000-0000-000000000517.material}

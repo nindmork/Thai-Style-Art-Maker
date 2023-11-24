@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "45fdbf23-f74f-b3f4-144a-c43d9645dcb1",
+      "b": ""
+    },
+    "extraType": "JSAssetAnimSequence",
+    "name": "SmokePoof_AnimationTex",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]

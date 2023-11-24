@@ -1,0 +1,380 @@
+%YAML 1.1
+--- !Scene &1
+name: ""
+guid: {a: 7875085725817850609, b: 329766013828765107}
+editSceneGuid: {a: 0, b: 0}
+calibrateVer: V5
+entities:
+  - __class: Entity
+    name: Camera
+    guid: {a: 10180214583793075010, b: 13085474825770890632}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 8}
+      - __class: Camera
+        name: ""
+        guid: {a: 18393534764065644695, b: 16547619468206596491}
+        enabled: true
+        layerVisibleMask: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        renderOrder: 0
+        type:
+          __class: CameraType
+          value: PERSPECTIVE
+        clearColor: {r: 0, g: 0, b: 0, a: 1}
+        clearType:
+          __class: CameraClearType
+          value: DEPTH
+        alwaysClear: true
+        viewport: {x: 0, y: 0, w: 1, h: 1}
+        fovy: 60
+        orthoScale: 1
+        zNear: 0.1000000014901161
+        zFar: 1000
+        renderTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        isRootCamera: false
+    layer: 0
+  - __class: Entity
+    name: Art Maker [Try Me]
+    guid: {a: 2830849633255633192, b: 17492911068433146501}
+    scene: {localId: 1}
+    selfvisible: false
+    components:
+      - {localId: 11}
+      - __class: JSScriptComponent
+        name: ""
+        guid: {a: 16160328070064878383, b: 10591476445190252987}
+        enabled: true
+        path: js/AIDraw.js
+        properties:
+          __class: Map
+          algoConfig: "{\"custom_prompt\":\"jewelry of the Ayutthaya Kingdom Full jewelry Change to Traditional Thai Costume Take off a shirt temples It is and backdrop of a country or a temple or a city or a pier in the ancient Thai style.\",\"strength\":0.4,\"ddim_eta\":0,\"sampler_name\":\"euler_ancestral\",\"u_prompt\":\"nsfw, low res,bad\xa0anatomy,bad\xa0hands,text,error,missing\xa0fingers, cropped,worst\xa0quality,low\xa0quality,normal\xa0quality,jpeg\xa0artifacts,signature,watermark,username,blurry,missing\xa0fingers,bad\xa0hands\",\"scale\":7.5,\"seed\":-1,\"out_sizew\":384,\"out_sizeh\":640,\"ddim_steps\":20,\"style_token\":\"charliebo artstyle\"}"
+          demoId: 1683049917777396
+          errorMat: {localId: 1, path: 00000000-0000-0000-0000-000000000516--00000000-0000-0000-0000-000000000516.material}
+          errorTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000134--00000000-0000-0000-0000-000000000134.png}
+          finalOutRT: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+          grabMat: {localId: 1, path: 00000000-0000-0000-0000-000000000515--00000000-0000-0000-0000-000000000515.material}
+          graphName: AlSubGraph_Fri24Nov2023062137GMT416drc6
+          prompt: jewelry of the Ayutthaya Kingdom Full jewelry Change to Traditional Thai Costume Take off a shirt temples It is and backdrop of a country or a temple or a city or a pier in the ancient Thai style.
+          region: auto
+          resultMat: {localId: 1, path: 00000000-0000-0000-0000-000000000517--00000000-0000-0000-0000-000000000517.material}
+          serviceName: img2img_comic_effecthouse
+          strength: 0.4
+          styleDisplay: Fantasy
+    layer: 0
+  - __class: Entity
+    name: Art Maker
+    guid: {a: 8235238043598186243, b: 16840308208679013795}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 9}
+      - __class: EffectNode
+        name: ""
+        guid: {a: 14792803682663561050, b: 6161520050080348315}
+        enabled: true
+        outputTextures:
+          - {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        renderOrder: 8001
+        minorOrder: 0
+        type:
+          __class: EffectNodeTag
+          value: Other
+        version: 2
+        rendererType:
+          __class: RendererType
+          value: Metal
+    layer: 0
+  - __class: Entity
+    name: 2D Camera
+    guid: {a: 12125635306818809954, b: 639792148286464685}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 23}
+      - __class: Camera
+        name: ""
+        guid: {a: 8164613331701083821, b: 6924785323031688081}
+        enabled: true
+        layerVisibleMask: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        renderOrder: 0
+        type:
+          __class: CameraType
+          value: ORTHO
+        clearColor: {r: 0, g: 0, b: 0, a: 1}
+        clearType:
+          __class: CameraClearType
+          value: DEPTH
+        alwaysClear: true
+        viewport: {x: 0, y: 0, w: 1, h: 1}
+        fovy: 60
+        orthoScale: 20
+        zNear: 0.1000000014901161
+        zFar: 1000
+        renderTexture: {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        isRootCamera: false
+    layer: 10
+  - __class: Entity
+    name: 2D Foreground Effects
+    guid: {a: 4197740009295524009, b: 15360543891530720912}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 24}
+      - __class: EffectNode
+        name: ""
+        guid: {a: 7224746365179119058, b: 11765816047390444946}
+        enabled: true
+        outputTextures:
+          - {localId: 1, path: 00000000-0000-0000-0000-000000000009}
+        renderOrder: 9001
+        minorOrder: 0
+        type:
+          __class: EffectNodeTag
+          value: Other
+        version: 2
+        rendererType:
+          __class: RendererType
+          value: Metal
+    layer: 0
+  - __class: Entity
+    name: Progress Bar Animation
+    guid: {a: 9101182663571681421, b: 1401790308446323093}
+    scene: {localId: 1}
+    selfvisible: false
+    components:
+      - {localId: 25}
+      - __class: ImageRenderer
+        name: ""
+        guid: {a: 3985309886825595786, b: 3908778612249601959}
+        enabled: true
+        sharedMaterials:
+          - {localId: 0}
+        sortingOrder: 0
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        texture: {localId: 1, path: custom://e25a714a-97ff-e6f5-4810-dc099ab4afac}
+        opacity: 1
+        color: {r: 1, g: 1, b: 1, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Fit
+        imageMaterialProperties:
+          __class: Map
+          _ellipseX: 1
+          _ellipseY: 1
+          _filledRange: 1
+          _filledType: 0
+          _startPoint: 0
+    layer: 0
+  - __class: Entity
+    name: Smoke Poof Animation
+    guid: {a: 2182300764195053659, b: 8787874908611839644}
+    scene: {localId: 1}
+    selfvisible: false
+    components:
+      - {localId: 26}
+      - __class: ImageRenderer
+        name: ""
+        guid: {a: 15442143084337941242, b: 5718940849157112508}
+        enabled: true
+        sharedMaterials:
+          - {localId: 0}
+        sortingOrder: 1
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        texture: {localId: 1, path: custom://13eeb562-88a4-0726-1433-2918d10fc924}
+        opacity: 1
+        color: {r: 0.925, g: 0.925, b: 0.925, a: 1}
+        size: {x: 10, y: 10}
+        pivot: {x: 0.5, y: 0.5}
+        flipX: false
+        flipY: false
+        stretchMode:
+          __class: ImageStretchMode
+          value: Fit
+        imageMaterialProperties:
+          __class: Map
+          _ellipseX: 1
+          _ellipseY: 1
+          _filledRange: 1
+          _filledType: 0
+          _startPoint: 0
+    layer: 0
+  - __class: Entity
+    name: TIP [TAP ON THE PREVIEW SCREEN]
+    guid: {a: 8524399925590576868, b: 16488097466433857953}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 27}
+    layer: 0
+  - __class: Entity
+    name: Environment Light
+    guid: {a: 17532452098294542760, b: 12425718177558141843}
+    scene: {localId: 1}
+    selfvisible: true
+    components:
+      - {localId: 28}
+      - __class: Envmap
+        name: ""
+        guid: {a: 17456429358998367639, b: 9825608429791531143}
+        enabled: true
+        envmapLayers: {__class: DynamicBitset, numBits: 64, values: [1, 0]}
+        specularEnvmap: {localId: 1, path: 00000000-0000-0000-0000-000000000800--00000000-0000-0000-0000-000000000800.texture}
+        IBLMode: true
+        intensity: 1
+        rotation: 0
+    layer: 0
+visible: true
+config:
+  __class: Map
+msaa:
+  __class: MSAAMode
+  value: _4X
+jsScriptSystems:
+  - js/GraphSystem.js
+  - js/Main.js
+  - js/JSAssetSystem.js
+enableMultiTouch: false
+enableLightMultiPass: false
+pixelLightCount: 4
+resourceRendererType:
+  __class: RendererType
+  value: "Null"
+--- !Transform &8
+name: ""
+guid: {a: 14145000689903744101, b: 6111037265461598351}
+enabled: true
+localPosition: {x: 0, y: 0, z: 40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 9}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &9
+name: ""
+guid: {a: 12629985132416961300, b: 14387677276955654788}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 27}
+  - {localId: 8}
+  - {localId: 11}
+  - {localId: 28}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !ScreenTransform &11
+name: ""
+guid: {a: 4634140877934150626, b: 11164436984263709107}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 9}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: 0}
+sizeDelta: {x: 720, y: 1280}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+--- !Transform &23
+name: ""
+guid: {a: 7874160789305860195, b: 16354778231446732189}
+enabled: true
+localPosition: {x: 0, y: 0, z: 40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 24}
+children:
+  - {localId: 25}
+  - {localId: 26}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &24
+name: ""
+guid: {a: 17604391571626328540, b: 14611801297014328221}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 23}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !ScreenTransform &25
+name: ""
+guid: {a: 8666996975958678328, b: 16306779983704700039}
+enabled: true
+localPosition: {x: 0, y: 0, z: -40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 23}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: 0}
+sizeDelta: {x: 277, y: 277}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+--- !ScreenTransform &26
+name: ""
+guid: {a: 3118763769927196202, b: 15118643250470649514}
+enabled: true
+localPosition: {x: 0, y: 0, z: -40}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 23}
+mobility:
+  __class: Mobility
+  value: Dynamic
+anchoredPosition: {x: 0, y: 0}
+sizeDelta: {x: 720, y: 1280}
+pivot: {x: 0.5, y: 0.5}
+anchors: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+pixelsPerUnit: 32
+--- !Transform &27
+name: ""
+guid: {a: 7804616712602922719, b: 9286053598621442954}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 9}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &28
+name: ""
+guid: {a: 13925299121689987661, b: 12301253399204466317}
+enabled: true
+localPosition: {x: 0, y: 30, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 9}
+mobility:
+  __class: Mobility
+  value: Dynamic

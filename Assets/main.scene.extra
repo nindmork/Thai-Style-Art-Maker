@@ -1,0 +1,453 @@
+[
+  {
+    "guid": {
+      "a": "e0b6e705-9b12-f28e-2cdc-3dc8616f6503",
+      "b": ""
+    },
+    "objGuid": "Guid(10180214583793075010, 13085474825770890632)",
+    "extraType": "Entity",
+    "name": "Camera",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none",
+    "createdEffectNodeKey": ""
+  },
+  {
+    "guid": {
+      "a": "54c0bd3d-942c-cefe-6f30-b7fca966ad68",
+      "b": ""
+    },
+    "objGuid": "Guid(14145000689903744101, 6111037265461598351)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "rttiType": "Transform",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "editable": true,
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "guid": {
+      "a": "6720b518-85f8-a582-a919-04551b8d3797",
+      "b": ""
+    },
+    "objGuid": "Guid(12629985132416961300, 14387677276955654788)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "rttiType": "Transform",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "editable": true,
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "guid": {
+      "a": "12e1b914-d190-23a3-ac0b-237cc6f98077",
+      "b": ""
+    },
+    "objGuid": "Guid(7804616712602922719, 9286053598621442954)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "rttiType": "Transform",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "editable": true,
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "guid": {
+      "a": "00e1b2bf-32ef-6317-effc-725160a50e75",
+      "b": ""
+    },
+    "objGuid": "Guid(4634140877934150626, 11164436984263709107)",
+    "extraType": "ScreenTransform",
+    "name": "ScreenTransform",
+    "rttiType": "ScreenTransform",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "3ef90e89-d5b7-7aab-d9a8-b19d420c2879",
+      "b": ""
+    },
+    "objGuid": "Guid(13925299121689987661, 12301253399204466317)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "rttiType": "Transform",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "editable": true,
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "guid": {
+      "a": "e3bed0f0-c606-4d88-5b0b-1e43b3232640",
+      "b": ""
+    },
+    "objGuid": "Guid(18393534764065644695, 16547619468206596491)",
+    "extraType": "Camera",
+    "name": "Camera",
+    "rttiType": "Camera",
+    "version": "0.2.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "70bcf1eb-00a8-2805-bf4e-6a6f01bf29fd",
+      "b": ""
+    },
+    "objGuid": "Guid(2830849633255633192, 17492911068433146501)",
+    "extraType": "Entity",
+    "name": "Art Maker [Try Me]",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none",
+    "createdEffectNodeKey": "effect_node_utility"
+  },
+  {
+    "guid": {
+      "a": "d6d67ea6-71bb-8431-5451-501c843e723a",
+      "b": ""
+    },
+    "objGuid": "Guid(16160328070064878383, 10591476445190252987)",
+    "extraType": "AIDraw",
+    "name": "AIDraw",
+    "rttiType": "JSScriptComponent",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "62171df0-09c4-abb9-ed93-8a6dccb29f7a",
+      "b": ""
+    },
+    "objGuid": "Guid(8235238043598186243, 16840308208679013795)",
+    "extraType": "Entity",
+    "name": "Art Maker",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none",
+    "createdEffectNodeKey": ""
+  },
+  {
+    "guid": {
+      "a": "0a9566c1-05f1-9401-159f-cb40f9273d4b",
+      "b": ""
+    },
+    "objGuid": "Guid(14792803682663561050, 6161520050080348315)",
+    "extraType": "EffectNode",
+    "name": "EffectNode",
+    "rttiType": "EffectNode",
+    "version": "0.1.0",
+    "isVisibleInInspector": false,
+    "hideInPanel": false,
+    "expanded": true,
+    "editable": true,
+    "type": 5
+  },
+  {
+    "guid": {
+      "a": "40980e15-abad-e617-9f61-9ba2178fa067",
+      "b": ""
+    },
+    "objGuid": "Guid(12125635306818809954, 639792148286464685)",
+    "extraType": "Entity",
+    "name": "2D Camera",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none",
+    "createdEffectNodeKey": "effect_node_2D_foreground"
+  },
+  {
+    "guid": {
+      "a": "b34da746-66c5-3105-0fe0-382b874ae3e7",
+      "b": ""
+    },
+    "objGuid": "Guid(7874160789305860195, 16354778231446732189)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "rttiType": "Transform",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "editable": true,
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "guid": {
+      "a": "a2413386-f7ab-748d-64cd-73a8b58fa9a2",
+      "b": ""
+    },
+    "objGuid": "Guid(17604391571626328540, 14611801297014328221)",
+    "extraType": "Transform",
+    "name": "Transform",
+    "rttiType": "Transform",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "editable": true,
+    "eulerAngle": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "guid": {
+      "a": "e2d85f8e-a481-b955-8c23-81e365b226ce",
+      "b": ""
+    },
+    "objGuid": "Guid(8666996975958678328, 16306779983704700039)",
+    "extraType": "ScreenTransform",
+    "name": "ScreenTransform",
+    "rttiType": "ScreenTransform",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "60b7440f-4c64-c1ce-0c7e-9e280ac70905",
+      "b": ""
+    },
+    "objGuid": "Guid(3118763769927196202, 15118643250470649514)",
+    "extraType": "ScreenTransform",
+    "name": "ScreenTransform",
+    "rttiType": "ScreenTransform",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "cd03303d-609e-4b12-ed5f-158251ec0d5a",
+      "b": ""
+    },
+    "objGuid": "Guid(8164613331701083821, 6924785323031688081)",
+    "extraType": "Camera",
+    "name": "Camera",
+    "rttiType": "Camera",
+    "version": "0.2.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "editable": true
+  },
+  {
+    "guid": {
+      "a": "99542036-df96-be81-e8eb-e7886d750f8e",
+      "b": ""
+    },
+    "objGuid": "Guid(4197740009295524009, 15360543891530720912)",
+    "extraType": "Entity",
+    "name": "2D Foreground Effects",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none",
+    "createdEffectNodeKey": ""
+  },
+  {
+    "guid": {
+      "a": "eb84d2e2-0add-6af2-6d59-1391a50c77bc",
+      "b": ""
+    },
+    "objGuid": "Guid(7224746365179119058, 11765816047390444946)",
+    "extraType": "EffectNode",
+    "name": "EffectNode",
+    "rttiType": "EffectNode",
+    "version": "0.1.0",
+    "isVisibleInInspector": false,
+    "hideInPanel": false,
+    "expanded": true,
+    "editable": true,
+    "type": 6
+  },
+  {
+    "guid": {
+      "a": "12ab37b4-5b1e-a7b5-0f15-40276e4483f0",
+      "b": ""
+    },
+    "objGuid": "Guid(9101182663571681421, 1401790308446323093)",
+    "extraType": "Entity",
+    "name": "Progress Bar Animation",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none",
+    "createdEffectNodeKey": "effect_node_2D_foreground"
+  },
+  {
+    "guid": {
+      "a": "64ae5e7b-5db8-0d13-ab6a-5a9d468393fd",
+      "b": ""
+    },
+    "objGuid": "Guid(3985309886825595786, 3908778612249601959)",
+    "extraType": "Image",
+    "name": "Image",
+    "rttiType": "ImageRenderer",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "editable": true,
+    "alphaNOPM": false,
+    "sharedMaterial": "00000000-0000-0000-0000-000000000132",
+    "blendMode": "Lighten",
+    "drawMode": "Normal",
+    "filledType": 0,
+    "startPoint": 0,
+    "filledRange": 1,
+    "ellipseX": 1,
+    "ellipseY": 1,
+    "texture": "e43259a4-6816-ce7c-3c22-d8b953f0bbd8"
+  },
+  {
+    "guid": {
+      "a": "f888bab3-1c4b-2bcd-99f4-c9f7ba4d784b",
+      "b": ""
+    },
+    "objGuid": "Guid(2182300764195053659, 8787874908611839644)",
+    "extraType": "Entity",
+    "name": "Smoke Poof Animation",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none",
+    "createdEffectNodeKey": "effect_node_2D_foreground"
+  },
+  {
+    "guid": {
+      "a": "7411dc93-acb3-0548-a1cb-a90e9a95e51c",
+      "b": ""
+    },
+    "objGuid": "Guid(15442143084337941242, 5718940849157112508)",
+    "extraType": "Image",
+    "name": "Image",
+    "rttiType": "ImageRenderer",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "editable": true,
+    "alphaNOPM": false,
+    "sharedMaterial": "00000000-0000-0000-0000-000000000132",
+    "blendMode": "Normal",
+    "drawMode": "Normal",
+    "filledType": 0,
+    "startPoint": 0,
+    "filledRange": 1,
+    "ellipseX": 1,
+    "ellipseY": 1,
+    "texture": "45fdbf23-f74f-b3f4-144a-c43d9645dcb1"
+  },
+  {
+    "guid": {
+      "a": "c3f4d50e-2280-f07f-023c-356092dbe114",
+      "b": ""
+    },
+    "objGuid": "Guid(8524399925590576868, 16488097466433857953)",
+    "extraType": "Entity",
+    "name": "TIP [TAP ON THE PREVIEW SCREEN]",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none",
+    "createdEffectNodeKey": "effect_node_utility"
+  },
+  {
+    "guid": {
+      "a": "ba5818c9-d15e-602d-89fb-dd832739f8cd",
+      "b": ""
+    },
+    "objGuid": "Guid(17532452098294542760, 12425718177558141843)",
+    "extraType": "Entity",
+    "name": "Environment Light",
+    "rttiType": "Entity",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "type": "none",
+    "createdEffectNodeKey": "effect_node_utility"
+  },
+  {
+    "guid": {
+      "a": "a295deb7-0ebd-272a-70e1-2b5da2cf3c55",
+      "b": ""
+    },
+    "objGuid": "Guid(17456429358998367639, 9825608429791531143)",
+    "extraType": "EnvironmentLighting",
+    "name": "EnvironmentLighting",
+    "rttiType": "Envmap",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "expanded": true,
+    "editable": true
+  }
+]

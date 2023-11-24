@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "78c25a52-a7d8-da2c-2c58-d7b064b463e7",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Comp",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

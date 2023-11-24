@@ -1,0 +1,16 @@
+[
+  {
+    "guid": {
+      "a": "e43259a4-6816-ce7c-3c22-d8b953f0bbd8",
+      "b": ""
+    },
+    "extraType": "JSAssetAnimSequence",
+    "name": "Texture Sequence",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Texture2D",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false
+  }
+]
